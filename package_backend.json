@@ -1,0 +1,16 @@
+{
+
+  "name": "backend-email",
+  "version": "1.0.0",
+  "description": "Backend server for handling email sending.",
+  "main": "server.cjs",
+  "scripts": {
+    "start": "node server.cjs"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.11"
+  }
+}

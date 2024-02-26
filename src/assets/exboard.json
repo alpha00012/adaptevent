@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Badiss Boumiza",
+    "email": "mohamedbadiss.boumiza@ieee.org",
+    "post": "Chairman",
+    "img" : "Badis.webp",
+    "fb": "https://www.facebook.com/badiss.bm.9",
+    "insta": "https://www.instagram.com/badiss_bmz/?hl=fr",
+    "linkedin": ""
+  },
+  {
+    "name": "Ghada Aouina",
+    "email": "ghada.aouina@ieee.org",
+    "post": "Vice-Chairwoman",
+    "img" : "Ghada.webp",
+    "fb": "https://www.facebook.com/ghada.aouina.73",
+    "insta": "https://www.instagram.com/ghada_aouina/?hl=fr",
+    "linkedin": ""
+  },
+  {
+    "name": "Sarra Bellassoued",
+    "email": "sarra.bellassoued@ieee.org",
+    "post": "General Secretary",
+    "img" : "Sarra.webp",
+    "fb": "https://www.facebook.com/sarah.bellassoued/",
+    "insta": "https://www.instagram.com/sarah_bellassoued/?hl=fr",
+    "linkedin": ""
+  },
+  {
+    "name": "Walaeddine Riahi",
+    "email": "walaeddine.riahi@ieee.org",
+    "post": "Treasurer",
+    "img" : "Walaa.webp",
+    "fb": "https://www.facebook.com/walaeddine.riahi",
+    "insta": "",
+    "linkedin": ""
+  },
+  {
+    "name": "Rayen Ben Salem",
+    "email": "rayen.bensalem@ieee.org",
+    "post": "HR Manager",
+    "img" : "Rayen.webp",
+    "fb": "https://www.facebook.com/rayen.bensalem1919",
+    "insta": "hhttps://www.instagram.com/rayen_ben_salem07/?hl=fr",
+    "linkedin": ""
+  },
+  {
+    "name": "Mohamed Dhia Shiri",
+    "email": "mouhameddhia.shiri@ieee.org",
+    "post": "Media manager",
+    "img" : "Dhia.webp",
+    "fb": "https://www.facebook.com/dhia.shiri",
+    "insta": "https://www.instagram.com/shiri_dhia/?hl=fr",
+    "linkedin": ""
+  },
+  {
+    "name": "Maissa Hasni",
+    "email": "maissa.hasni@ieee.org",
+    "post": "Project Coordinator",
+    "img" : "Maissa.webp",
+    "fb": "https://www.facebook.com/profile.php?id=100071573436824",
+    "insta": "https://www.instagram.com/maissa.hasni/?hl=fr",
+    "linkedin": ""
+  }
+]

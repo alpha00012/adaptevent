@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: Inter, sans-serif;
+}
+
+.background{
+    background-image: linear-gradient(
+            to bottom,
+            rgba(24, 76, 82, 0.4),
+            rgb(0, 98, 155, 0.3)
+    ),
+    url("/assets/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    position: relative;
+}
+
+.card-board {
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    width: 250px;
+    height: 250px;
+}
+
+
+.overlay {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
+
+}
+
+.text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #fff; /* Text color */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease-in-out;
+    z-index: 1; /* Ensure text is in front of the overlay */
+}
+
+.card-board:hover .text {
+    opacity: 1; /* Show text on hover */
+}
+
+.card-board:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+.overlay:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 14px;
+}
+
+.card-board:hover .overlay:after {
+    background-image: linear-gradient(
+            to bottom,
+            rgba(0, 48, 141, 0.6),
+            rgba(0, 102, 147, 0.6)
+    );
+    border-radius: 14px;
+}
+
+.carousel-container {
+    max-width: 85%;
+
+    margin-left: auto;
+    margin-right: auto;
+    outline: 0;
+
+
+}
+
+.carousel-item img{
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 14px;
+}
+
+.carousel-container .slick-slide {
+    outline: none;
+    outline: 0;
+}
+
+.full-screen-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.full-screen-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+}
+
+.full-screen-image {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    z-index: 2;
+}
+
+.objectives-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    background-color: #e9ecef; /* Light background for the whole section */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow */
+    margin-top: 20px;
+    width: 80%; /* Adjust as necessary */
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Style pour le conteneur du sous-menu */
+.sub-menu {
+    position: absolute;
+    top: 60%;
+    left: 600px;
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    white-space: nowrap; /* Empêche les éléments de passer à la ligne */
+    z-index: 1000;
+}
+
+.group:hover .sub-menu {
+    display: flex; /* Affiche le sous-menu en ligne */
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Style pour les éléments du sous-menu */
+.sub-menu-item {
+    display: flex;
+    align-items: center;
+    padding: 12px 24px;
+    color: #ffffff;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.sub-menu-item:not(:last-child) {
+    margin-right: 16px; /* Espace entre les éléments */
+}
+/* Style pour l'agenda */
+.agenda-container {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+  }
+  
+  .agenda-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .agenda-item {
+    margin-bottom: 20px;
+  }
+  
+  .agenda-item p {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  
+  /* Style pour les listes à puces */
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  /* Style pour les sous-listes */
+  ul ul {
+    list-style-type: circle;
+    margin-left: 30px;
+  }
+  
+  /* Style pour les liens */
+  a {
+    text-decoration: none;
+    color: #ffffff; /* Couleur du lien */
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  /* sponsorshipStyle.css */
+.centered-image {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100%; /* Ensure it takes up the full height of its container */
+  }
+  /* sponsorshipStyle.css */
+.registration-button-link {
+    text-decoration: none;
+  }
+  
+  .registration-button {
+    display: inline-block;
+    background-color: #007BFF; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    font-size: 16px; /* Button text size */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  
+    /* Center the button text vertically and horizontally */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .registration-button:hover {
+    background-color: #0056b3; /* Button background color on hover */
+  }
+  

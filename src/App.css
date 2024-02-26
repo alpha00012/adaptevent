@@ -1,0 +1,27 @@
+.line-transition {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(255, 255, 255);
+    transform-origin: bottom left;
+    transition: transform 0.2s ease-in-out, width 0.2s ease-in-out;
+}
+
+.line{
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    height: 2px;
+    background-color: white;
+    width: 100%;
+    /*transform-origin: bottom left;*/
+    /*transition: transform 0.2s ease-in-out, width 0.2s ease-in-out;*/
+
+}
+
+.group:hover .line-transition {
+    width: 100%;
+    transform: scaleX(1);
+}

@@ -1,0 +1,52 @@
+/* Style pour l'agenda */
+.agenda-container {
+  text-align: left;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.agenda-title {
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #00962b;
+}
+
+.agenda-item {
+  margin-bottom: 20px;
+}
+
+.agenda-item p {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+/* Style pour les listes à puces */
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* Style pour les sous-listes */
+ul ul {
+  list-style-type: circle;
+  margin-left: 30px;
+}
+
+/* Style pour les liens */
+a {
+  text-decoration: none;
+  color: #ffffff; /* Couleur du lien */
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.day-subtitle {
+    font-size: 20px; /* Taille de police */
+    font-weight: bold; /* Gras */
+    color: #333; /* Couleur du texte */
+    margin-top: 20px; /* Marge supérieure pour l'espacement */
+  }

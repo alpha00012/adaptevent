@@ -1,0 +1,113 @@
+/* General Layout */
+.prospectus-container {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .prospectus-main {
+    max-width: 1200px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .prospectus-section {
+    margin-bottom: 30px;
+  }
+  
+  /* Header */
+  .header h1 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #007bff;
+  }
+  
+  .header p {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  /* Event Overview, Why Sponsor, and Other Sections */
+  .prospectus-section h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #0056b3;
+  }
+  
+  .prospectus-section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+  
+  /* Sponsorship Packages */
+  .package-card {
+    background-color: #e7f1ff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+  }
+  
+  .package-card h3 {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  /* Testimonials, Contact Information, and Footer */
+  .testimonials,
+  .contact-info,
+  .footer {
+    text-align: center;
+  }
+  
+  .footer {
+    padding-top: 20px;
+    border-top: 1px solid #eaeaea;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .prospectus-main {
+      padding: 15px;
+    }
+  
+    .header h1, .prospectus-section h2 {
+      font-size: 1.8em;
+    }
+  
+    .prospectus-section p {
+      font-size: 1em;
+    }
+    /* sponsorshipStyle.css */
+.registration-button-link {
+  text-decoration: none;
+}
+
+.registration-button {
+  display: inline-block;
+  background-color: #007BFF; /* Button background color */
+  color: #fff; /* Button text color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  font-size: 16px; /* Button text size */
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+
+  /* Center the button text vertically and horizontally */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.registration-button:hover {
+  background-color: #0056b3; /* Button background color on hover */
+}
+
+  }
+  

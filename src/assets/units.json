@@ -1,0 +1,90 @@
+{
+  "AESS": {
+    "name": "AESS",
+    "subName": "Aerospace Engineering Student Society",
+    "description": "IEEE AESS Student Branch Chapters offer a variety of activities and events, including technical talks and presentations, professional development workshops, networking events, and social activities. They also participate in a number of national and international competitions, such as the IEEE AESS Student Design Competition and the IEEE AESS Student Conference.",
+    "url": "https://www.facebook.com/AESSESPRIT",
+    "website": "https://aess-esprit.ieee.tn",
+    "numberOfMembers": 45,
+    "numberOfActivities": 77,
+    "foundation": "2021",
+    "color" : "#025C99"
+  },
+  "CIS": {
+    "name": "CIS",
+    "subName": "Computational Intelligence Society",
+    "description": "The CIS student branch chapter is a community of students passionate about computational intelligence. Through workshops, competitions, and networking events, members deepen their knowledge in AI and machine learning. It provides a collaborative environment for students to connect and learn from each other. Join the chapter to expand your expertise and be part of a vibrant community in computational intelligence.",
+    "url": "https://www.facebook.com/ieeecisesprit",
+    "website": "https://cis-esprit.ieee.tn",
+    "numberOfMembers": 211,
+    "numberOfActivities": 43,
+    "foundation": "2022",
+    "color" : "#65aecf"
+  },
+  "CS": {
+    "name": "CS",
+    "subName": "Computer Society",
+    "description": "Computer Society (CS) is a professional society of IEEE. Its purpose and scope is to advance the theory, practice, and application of computer and information processing science and technology.",
+    "url": "https://www.facebook.com/cs.esprit",
+    "website": "https://computer-esprit.ieee.tn",
+    "numberOfMembers": 374,
+    "numberOfActivities": 90,
+    "foundation": "2018",
+    "color" : "#faa41a"
+  },
+  "IIP": {
+    "name": "IAS IES PES",
+    "subName": "Industry Applications Society & Industrial Electronics Society & Power & Energy Society",
+    "description": "IAS IES PES, the joint chapter formed by the merging of the IAS, IES, and PES student branch chapters, brings together students with a shared interest in engineering and power systems. This collaborative chapter offers a platform for members to engage in activities related to industrial applications, energy systems, and power electronics. Through workshops, seminars, and networking events, students can enhance their knowledge, exchange ideas, and build connections within the engineering community. Joining IIP provides a unique opportunity to explore various facets of engineering, foster interdisciplinary collaboration, and stay updated with advancements in power systems and related fields.",
+    "url": "https://www.facebook.com/iasiespes.esprit",
+    "website": "https://ias-ies-pes-esprit.ieee.tn",
+    "numberOfMembers": 400,
+    "numberOfActivities": 272,
+    "foundation": "2023",
+    "color" : "#008d49"
+  },
+  "MTT-S": {
+    "name": "MTT-S",
+    "subName": "Microwave Theory and Techniques Society",
+    "description": "The MTT-S Student Branch is a community of students passionate about microwave engineering. Through workshops, talks, and projects, members deepen their knowledge and explore applications in the field. It provides networking opportunities and career development in microwave technology. Join the MTT-S Student Branch to connect with like-minded individuals and stay updated with the latest advancements in microwave theory and technology.",
+    "url": "https://www.facebook.com/MTTSESPRIT/",
+    "website": "https://mtts-esprit.ieee.tn",
+    "numberOfMembers": 24,
+    "numberOfActivities": 26,
+    "foundation": "2022",
+    "color" : "#00609c"
+  },
+  "RAS": {
+    "name": "RAS",
+    "subName": "Robotics and Automation Society",
+    "description": "The RAS Student Branch Chapter is a community of students focused on robotics and automation. Through workshops and projects, members gain practical skills in the field. It offers networking opportunities and career development in robotics and automation. Join the RAS Student Branch to connect with peers and stay updated with advancements in this exciting field.",
+    "url": "https://www.facebook.com/RASIEEESPRIT",
+    "website": "https://ras-esprit.ieee.tn",
+    "numberOfMembers": 180,
+    "numberOfActivities": 72,
+    "foundation": "2020",
+    "color" : "#60256a"
+  },
+  "SIGHT": {
+    "name": "SIGHT",
+    "subName": "Special Interest Group on Humanitarian Technology",
+    "description": "The SIGHT student branch leverages technology for humanitarian purposes. Members gain practical experience and collaborate on projects for social impact. Join to make a difference, connect with like-minded individuals, and contribute to sustainable development through technology.",
+    "url": "https://www.facebook.com/ieee.esprit.sight",
+    "website": "https://sight-esprit.ieee.tn",
+    "numberOfMembers": 787,
+    "numberOfActivities": 102,
+    "foundation": "2021",
+    "color" : "#e87722"
+  },
+  "WIE": {
+    "name": "WIE",
+    "subName": "Women in Engineering",
+    "description": "WIE student branch chapter is a community of students dedicated to promoting gender diversity and empowering women in the field of engineering. This chapter focuses on creating opportunities for networking, mentorship, and professional development for female engineering students. Through workshops, seminars, and events, members gain valuable skills and support to thrive in their engineering careers. Join the WIE student branch to connect with fellow women in engineering, foster personal growth, and make a positive impact in the field.",
+    "url": "https://www.facebook.com/IEEE.WIE.ESPRIT",
+    "website": "https://wie-esprit.ieee.tn",
+    "numberOfMembers": 581,
+    "numberOfActivities": 90,
+    "foundation": "2018",
+    "color" : "#74308c"
+  }
+}

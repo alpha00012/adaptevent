@@ -1,0 +1,169 @@
+[
+ 
+  {
+    "day": "Day 3",
+    "title": "Networking and Farewell",
+    "date": "5:00 PM - 6:00 PM",
+    "img": "27.png"
+  },
+  {
+    "day": "Day 3",
+    "title": "Conference Wrap-up and Acknowledgments",
+    "date": "4:00 PM - 5:00 PM",
+    "img": "26.png"
+  },
+  {
+    "day": "Day 3",
+    "title": "Closing Keynote - 'Charting the Future: Making Business Continuity a Standard Practice in Africa'",
+    "date": "3:30 PM - 4:00 PM",
+    "img": "25.png"
+  },
+  {
+    "day": "Day 3",
+    "title": "Lunch Break",
+    "date": "2:00 PM - 3:30 PM",
+    "img": "24.png"
+  },
+  {
+    "day": "Day 3",
+    "title": "Roundtable Discussions - 'Addressing Specific Challenges in Different Industries'",
+    "date": "1:00 PM - 2:00 PM",
+    "img": "23.png"
+  },
+  {
+    "day": "Day 3",
+    "title": "Presentation and Panel Discussion - 'Ensuring Resilience in Industrial Control Systems: Challenges and Best Practices'",
+    "date": "11:30 AM - 1:00 PM",
+    "img": "22.png"
+  },
+  {
+    "day": "Day 3",
+    "title": "Coffee Break and Networking",
+    "date": "11:00 AM - 11:30 AM",
+    "img": "21.png"
+  },
+  {
+    "day": "Day 3",
+    "title": "Panel Discussion - 'Roadmap to Implementation: Insights from Industry Leaders'",
+    "date": "10:00 AM - 11:00 AM",
+    "img": "20.png"
+  },
+  {
+    "day": "Day 3",
+    "title": "Keynote Speaker - 'Overcoming Challenges: Practical Steps to Implement Business Continuity in Africa'",
+    "date": "9:00 AM - 10:00 AM",
+    "img": "19.png"
+  },
+  {
+    "day": "Day 2",
+    "title": "Interactive Workshop - 'Business Continuity Simulation Exercise'",
+    "date": "4:00 PM - 5:30 PM",
+    "img": "18.png"
+  },
+  {
+    "day": "Day 2",
+    "title": "Networking Break",
+    "date": "3:30 PM - 4:00 PM",
+    "img": "17.png"
+  },
+  {
+    "day": "Day 2",
+    "title": "Panel Discussion - 'Learning from Global Success Stories'",
+    "date": "2:00 PM - 3:30 PM",
+    "img": "16.png"
+  },
+  {
+    "day": "Day 2",
+    "title": "Lunch Break",
+    "date": "1:00 PM - 2:00 PM",
+    "img": "15.png"
+  },
+  {
+    "day": "Day 2",
+    "title": "Workshops - 'Risk Assessment and Mitigation Strategies'",
+    "date": "11:30 AM - 1:00 PM",
+    "img": "14.png"
+  },
+  {
+    "day": "Day 2",
+    "title": "Coffee Break and Networking",
+    "date": "11:00 AM - 11:30 AM",
+    "img": "13.png"
+  },
+  {
+    "day": "Day 2",
+    "title": "Panel Discussion - 'Practical Approaches to Business Continuity'",
+    "date": "10:00 AM - 11:00 AM",
+    "img": "12.png"
+  },
+  {
+    "day": "Day 2",
+    "title": "Keynote Speaker - 'Effective Business Continuity Planning: Tools and Techniques'",
+    "date": "9:00 AM - 10:00 AM",
+    "img": "11.png"
+  },
+  
+  
+    {
+      "day": "Day 1",
+      "title": "Interactive Session - 'Challenges and Opportunities for Business Continuity in Africa'",
+      "date": "4:00 PM - 5:00 PM",
+      "img": "10.png"
+    },
+    {
+      "day": "Day 1",
+      "title": "Networking Break",
+      "date": "3:30 PM - 4:00 PM",
+      "img": "9.png"
+    },
+    {
+      "day": "Day 1",
+      "title": "Workshop - 'Building a Business Continuity Culture in Your Organization'",
+      "date": "2:30 PM - 3:30 PM",
+      "img": "8.png"
+    },
+    {
+      "day": "Day 1",
+      "title": "Case Studies - 'Successful Business Continuity Implementations in Africa'",
+      "date": "1:30 PM - 2:30 PM",
+      "img": "7.png"
+    },
+    {
+      "day": "Day 1",
+      "title": "Lunch Break",
+      "date": "12:30 PM - 1:30 PM",
+      "img": "6.png"
+    },
+    {
+      "day": "Day 1",
+      "title": "Panel Discussion - 'Global Trends in Business Continuity'",
+      "date": "11:00 AM - 12:30 PM",
+      "img": "5.png"
+    },
+    {
+      "day": "Day 1",
+      "title": "Coffee Break and Networking",
+      "date": "10:30 AM - 11:00 AM",
+      "img": "4.png"
+    },
+    {
+      "day": "Day 1",
+      "title": "Keynote Speaker - 'The Importance of Business Continuity in Today's Global Environment'",
+      "date": "9:30 AM - 10:30 AM",
+      "img": "3.png"
+    },
+    {
+      "day": "Day 1",
+      "title": "Welcome Address and Conference Overview",
+      "date": "9:00 AM - 9:30 AM",
+      "img": "2.png"
+    },
+    {
+      "day": "Day 1",
+      "title": "Registration and Networking",
+      "date": "8:30 AM - 9:00 AM",
+      "img": "1.png"
+    }
+  
+  
+]

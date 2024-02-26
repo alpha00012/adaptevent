@@ -1,0 +1,17 @@
+.accordionWrapper {
+    margin-bottom: 10px;
+}
+
+.accordionTitle {
+    background: #eee;
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.accordionContent {
+    border: 1px solid #ddd;
+    border-top: none;
+    padding: 10px;
+    background: #fafafa;
+}

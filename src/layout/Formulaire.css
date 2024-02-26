@@ -1,0 +1,145 @@
+.formulaire-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 40px;
+    background: #f9f9f9; /* Couleur de fond plus douce */
+    border-radius: 12px; /* Bordures arrondies plus prononcées */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Ombre plus marquée */
+    font-family: 'Arial', sans-serif; /* Police moderne */
+}
+
+.formulaire h1 {
+    margin-bottom: 24px;
+    color: #007bff; /* Couleur principale plus vive */
+    text-align: center;
+    font-size: 28px; /* Taille de police plus grande */
+}
+
+.input-group {
+    margin-bottom: 25px;
+}
+
+.input-group input,
+.input-group select,
+.input-group textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px; /* Bordures plus arrondies */
+    border: 1px solid #ccc; /* Bordure plus légère */
+    margin-top: 5px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05); /* Ombre intérieure légère */
+    transition: border-color 0.3s; /* Transition en douceur */
+}
+
+.input-group textarea {
+    resize: vertical;
+    height: 150px; /* Hauteur plus grande */
+}
+
+.input-group input:focus,
+.input-group select:focus,
+.input-group textarea:focus {
+    border-color: #007bff; /* Couleur de mise en évidence lors de la focalisation */
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    color: #000000be;
+    background-color: #007bff;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s; /* Transition de couleur et d'échelle */
+}
+
+.submit-btn:hover {
+    background-color: #0056b3; /* Couleur plus foncée au survol */
+    transform: scale(1.05); /* Légère augmentation de taille au survol */
+}
+/* Styles de base */
+.formulaire-container {
+    font-family: 'Helvetica Neue', sans-serif;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin: 40px auto;
+    max-width: 500px;
+    text-align: center;
+}
+
+h2 {
+    color: #2a2a2a;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+
+.visitor-type-options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.visitor-type-options label {
+    background-color: #ffffff;
+    border: 2px solid #d1d1d1;
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 14px;
+}
+
+.visitor-type-options label:hover {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.visitor-type-options input[type="radio"] {
+    display: none;
+}
+
+/* Style pour le label lorsque le bouton radio est sélectionné */
+.visitor-type-options input[type="radio"]:checked + label {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: auto;
+}
+
+.submit-btn:hover {
+    background-color: #388e3c;
+}
+
+/* Règles de média queries pour les mobiles */
+@media (max-width: 600px) {
+    .formulaire-container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .visitor-type-options label {
+        font-size: 12px;
+        padding: 8px 15px;
+    }
+
+    .submit-btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+}

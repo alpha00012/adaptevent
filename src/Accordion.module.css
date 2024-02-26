@@ -1,0 +1,82 @@
+/* Container for the cards, if not already in your component */
+.cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap between the cards */
+    justify-content: center; /* Center cards in the container */
+}
+
+.card {
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background: white;
+    width: 400px; /* Width of the card */
+    cursor: pointer;
+    transition: box-shadow 0.3s ease, transform 0.3s ease, background-color 0.3s ease; /* Add transform for smooth scaling and background-color for color change */
+    position: relative; /* Needed for absolute positioning of children */
+}
+
+.card:hover,
+.card:active { /* Change color on hover and click */
+    background-color: #007bff;
+}
+
+.card:hover .cardHeader,
+.card:active .cardHeader { /* Change header text color on hover and click */
+    color: white;
+}
+
+.cardContent {
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background for content */
+    position: absolute; /* Position it over the card */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none; /* Hide content initially */
+    padding: 20px; /* Padding for content */
+    box-sizing: border-box; /* Include padding in the width and height */
+    transition: all 0.3s ease; /* Transition for smooth effect */
+    background-color: #fff; /* Background to cover other elements */
+    transform: scale(0.8); /* Initial scale to 80% */
+    opacity: 0; /* Initial opacity to hide content */
+}
+
+.card:hover .cardContent,
+.card:active .cardContent { /* Show content on hover and click */
+    display: block;
+    transform: scale(1); /* Scale to 100% on hover/click */
+    opacity: 1; /* Show content on hover/click */
+}
+
+.cardHeader {
+    background-color: #007bff; /* Or any color you prefer */
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    height: 150px; /* Height of the card header */
+    display: flex;
+    align-items: center; /* Vertically center the text */
+    justify-content: center; /* Horizontally center the text */
+    font-family: 'Arial', sans-serif;
+}
+
+.cardContent.open {
+    display: block;
+    transform: scale(1); /* Scale to 100% when open */
+    opacity: 1; /* Show content when open */
+}
+
+.cardFooter {
+    /* If you have a footer, you can style it here */
+}
+
+/* Media query for mobile responsiveness */
+@media (max-width: 768px) {
+    .card {
+        width: 100%; /* Full width for mobile */
+    }
+}

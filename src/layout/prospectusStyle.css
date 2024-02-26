@@ -1,0 +1,83 @@
+/* Base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .prospectus-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between; /* This will push the footer to the bottom */
+    align-items: center;
+    background-color: #f8f9fa; /* Light grey background */
+  }
+  
+  /* Header */
+  .prospectus-header {
+    width: 100%;
+    background-color: #005792; /* A deep blue shade */
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+  }
+  
+  .prospectus-title {
+    font-size: 3rem; /* Larger title font */
+  }
+  
+  /* Main content area */
+  .prospectus-main {
+    width: 90%;
+    max-width: 1200px; /* Cap the width for very large screens */
+    margin: 2rem auto;
+    background-color: white; /* White background for the content */
+    border-radius: 8px; /* Rounded corners for the content area */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 2rem;
+    /* Center align the text */
+  }
+  
+  .prospectus-section {
+    margin-bottom: 2rem; /* Spacing between sections */
+  }
+  
+  .prospectus-section h2 {
+    color: #005792; /* Title color to match the header */
+    margin-bottom: 1rem;
+    font-size: 2rem; /* Larger section titles */
+  }
+  
+  .prospectus-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333; /* Dark grey text for readability */
+  }
+  
+  /* Footer */
+  .prospectus-footer {
+    width: 100%;
+    background-color: #333; /* Dark footer */
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1rem;
+  }
+  
+  /* Responsive design adjustments */
+  @media (max-width: 768px) {
+    .prospectus-main {
+      width: 95%;
+    }
+  
+    .prospectus-title {
+      font-size: 2.5rem;
+    }
+  }
+  
